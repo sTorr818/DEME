@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>DEME</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/27aa575d3f.js" crossorigin="anonymous"></script>
+  <!-- JavaScript -->
+
+</head>
+
+<body>
+  <a href="catalog.html">
+  <div  class="front-page-image">
+
+  </div>
+  </a>
+
+  <div class="description">
+    <h3>Enriched Sense - DEME</h3>
+
+    <label for="site-features"></label>
+  </div>
+
+  <!-- Nav Bar -->
+  <!-- <div class="navbar test"> -->
+  <div class="dropdown test">
+  <button class="dropbtn" onclick="myFunction()">╬</button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="comingsoon.html">Look Book</a>
+    <a href="catalog.html">Shop</a>
+    <a href="comingsoon.html">Tops</a>
+    <a href="comingsoon.html">Bottoms</a>
+    <a href="comingsoon.html">Bio</a>
+    <a href="comingsoon.html">Locations</a>
+    <p class="copyright">© 2022 DEME</p>
+  </div>
+  </div>
+<!-- </div> -->
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+
+</html>
